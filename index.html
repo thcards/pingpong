@@ -98,21 +98,21 @@
             speed : 10,
            
         // MOUSE ( JOGADOR HUMANO)
-         //   _move: function () {
-         //       this.y = mouse.y - this.h /2
-         //   },
+            _move: function () {
+                this.y = mouse.y - this.h /2
+            },
 
 
          //MOUSE JOGADOR COMPUTADOR
 
 
-        _move: function() {
-               if (this.y + this.h /2 < ball.y + ball.r){
-                  this.y += this.speed
-                    } else {
-                    this.y -= this.speed
-                }
-            },
+       // _move: function() {
+       //        if (this.y + this.h /2 < ball.y + ball.r){
+        //          this.y += this.speed
+         //           } else {
+         //           this.y -= this.speed
+          //      }
+        //    },
 
             speedUp: function () {
                 this.speed += 2
